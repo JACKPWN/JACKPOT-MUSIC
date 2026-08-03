@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The official JACKPOT music hub from Las Vegas." />
+    <meta name="theme-color" content="#003d25" />
+    <title>JACKPOT — Las Vegas</title>
+    <link rel="icon" href="./media/jackpot-icon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <a class="skip-link" href="#media-console">SOUNDCLOUD / YOUTUBE</a>
+
+      <section class="hero" aria-labelledby="jackpot-title">
+        <div class="hero-confetti hero-confetti-left" aria-hidden="true"></div>
+        <div class="hero-confetti hero-confetti-right" aria-hidden="true"></div>
+
+        <div class="hero-marquee">
+          <span class="bulb-rail bulb-rail-top" aria-hidden="true"></span>
+          <span class="bulb-rail bulb-rail-right" aria-hidden="true"></span>
+          <span class="bulb-rail bulb-rail-bottom" aria-hidden="true"></span>
+          <span class="bulb-rail bulb-rail-left" aria-hidden="true"></span>
+          <div class="hero-marquee-inner">
+            <h1 id="jackpot-title" class="sr-only">JACKPOT</h1>
+            <div class="hero-logo-well">
+              <img
+                class="hero-logo"
+                src="./media/jackpot-logo.png"
+                width="1024"
+                height="1024"
+                alt="JACKPOT in gold lettering on green poker-table felt"
+                fetchpriority="high"
+              />
+              <span class="hero-light-sweep" aria-hidden="true"></span>
+            </div>
+            <p class="hero-location">LAS VEGAS</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="media-stage" id="media-console" aria-label="JACKPOT media">
+        <div class="machine-shell">
+          <div class="machine-crown" aria-hidden="true">
+            <span></span><strong>JACKPOT</strong><span></span>
+          </div>
+
+          <div class="media-grid">
+            <article class="media-bay soundcloud-bay" data-player-shell="soundcloud">
+              <header class="player-label">
+                <span class="status-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+                <h2>SOUNDCLOUD</h2>
+              </header>
+              <div class="screen-bezel">
+                <iframe
+                  id="soundcloud-profile"
+                  class="soundcloud-frame"
+                  title="JACKPOT on SoundCloud"
+                  width="100%"
+                  height="450"
+                  scrolling="no"
+                  allow="autoplay; encrypted-media"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F1236628216&amp;show_artwork=true&amp;color=%23FFC928&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;sharing=true&amp;download=false&amp;single_active=true"
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="media-bay youtube-bay" data-player-shell="youtube">
+              <header class="player-label">
+                <span class="status-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+                <h2>YOUTUBE</h2>
+              </header>
+              <div class="screen-bezel youtube-screen-bezel">
+                <div class="youtube-aspect">
+                  <iframe
+                    id="youtube-player"
+                    title="JACKPOT on YouTube"
+                    data-video-id="576rsN5oyV4"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                    referrerpolicy="strict-origin-when-cross-origin"
+                  ></iframe>
+                </div>
+                <div class="youtube-control-deck" aria-hidden="true">
+                  <span class="speaker-grille"></span>
+                  <span class="deck-lights">
+                    <i></i><i></i><i></i><i></i><i></i><i></i>
+                    <i></i><i></i><i></i><i></i><i></i><i></i>
+                  </span>
+                  <span class="speaker-grille"></span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="machine-base" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="u-win-stage" aria-labelledby="u-win-title">
+        <div class="u-win-machine" data-player-shell="uwin">
+          <div class="u-win-art-bezel">
+            <img
+              src="./media/uwin-cover.webp"
+              width="900"
+              height="900"
+              loading="lazy"
+              alt="JACKPOT U WIN cover artwork"
+            />
+          </div>
+          <div class="u-win-console">
+            <div class="feature-kicker">
+              <span class="status-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+              <strong>JACKPOT</strong>
+            </div>
+            <h2 id="u-win-title">*cha ching</h2>
+            <div class="feature-rule" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="u-win-player-bezel">
+              <iframe
+                id="soundcloud-uwin"
+                title="JACKPOT - U Win on SoundCloud"
+                width="100%"
+                height="166"
+                scrolling="no"
+                loading="lazy"
+                allow="autoplay; encrypted-media"
+                referrerpolicy="strict-origin-when-cross-origin"
+                src="https://w.soundcloud.com/player/?visual=false&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2100531930&amp;show_artwork=true&amp;color=%23FFC928&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;sharing=true&amp;download=false&amp;single_active=true"
+              ></iframe>
+            </div>
+            <a class="soundcloud-link" href="https://soundcloud.com/jackpotlasvegas/uwin" target="_blank" rel="noreferrer">SOUNDCLOUD</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-mark"><strong>JACKPOT</strong><span>LAS VEGAS</span></div>
+        <p class="footer-copyright">© DJC</p>
+        <nav class="footer-links" aria-label="JACKPOT links">
+          <a href="https://soundcloud.com/jackpotlasvegas" target="_blank" rel="noreferrer">SOUNDCLOUD</a>
+          <a href="https://www.youtube.com/@JACKPOTMusicLasVegas" target="_blank" rel="noreferrer">YOUTUBE</a>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
